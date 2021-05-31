@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="R$ 12.689,11"
+                android:text="R$ 12.345,67"
                 android:textColor="@color/black"
                 android:textSize="23dp"
                 android:textStyle="bold"
@@ -168,7 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="R$ 6.543,80"
+                android:text="R$ 6.789,01"
                 app:layout_constraintBottom_toBottomOf="@id/tv_saldo_limite"
                 app:layout_constraintLeft_toRightOf="@id/tv_saldo_limite"
                 app:layout_constraintTop_toTopOf="@id/tv_saldo_limite" />
