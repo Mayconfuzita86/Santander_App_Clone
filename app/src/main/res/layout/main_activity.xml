@@ -202,7 +202,7 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mvc_pagar"
-        android:layout_width="115dp"
+        android:layout_width="105dp"
         android:layout_height="115dp"
         android:layout_margin="16dp"
         android:elevation="20dp"
@@ -240,10 +240,11 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mvc_transferir"
-        android:layout_width="115dp"
+        android:layout_width="105dp"
         android:layout_height="115dp"
-        android:layout_margin="16dp"
-        android:elevation="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         app:layout_constraintStart_toEndOf="@id/mvc_pagar"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView">
 
@@ -279,12 +280,15 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mvc_recarregar"
-        android:layout_width="115dp"
+        android:layout_width="105dp"
         android:layout_height="115dp"
-        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="5dp"
         android:elevation="20dp"
         app:layout_constraintStart_toEndOf="@id/mvc_transferir"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+        >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
